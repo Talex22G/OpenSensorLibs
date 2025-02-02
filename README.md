@@ -3,6 +3,7 @@
 ------------------------------------------------------------
 
 Structure du dépôt
+-
 
 Chaque capteur ou actionneur doit être documenté et organisé dans un dossier spécifique portant son nom. La structure de chaque dossier doit être la suivante :
 
@@ -27,4 +28,25 @@ Chaque capteur ou actionneur doit être documenté et organisé dans un dossier 
   -Dépendances : Bibliothèques nécessaires, protocoles utilisés (I2C, SPI, UART, etc.).
 
   -Son adresse si I2C.
+  
+------------------------------------------------------------
 
+Normes de codage
+-
+
+Toutes les fonctions implémentées doivent inclure une en-tête de documentation expliquant leur rôle et leur utilisation. 
+
+Exemple :
+
+```c
+printf("Température : %.2f°C\n", temperature);
+
+/**
+
+ * @brief Lit la température du capteur TMP36.
+   
+ * @return La température en degrés Celsius.
+
+ */
+
+float lire_temperature();

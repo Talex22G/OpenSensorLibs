@@ -2,7 +2,7 @@
 
 ------------------------------------------------------------
 
-#Structure du dépôt
+Structure du dépôt
 
 Chaque capteur ou actionneur doit être documenté et organisé dans un dossier spécifique portant son nom. La structure de chaque dossier doit être la suivante :
 

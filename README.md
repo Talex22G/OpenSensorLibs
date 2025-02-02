@@ -21,6 +21,9 @@ Chaque capteur ou actionneur doit être documenté et organisé dans un dossier 
  
 ------------------------------------------------------------
 
+README.md
+-
+
  Chaque dossier de capteur doit contenir un fichier README.md expliquant :
 
   -Description du capteur/actionneur : Informations générales sur son rôle et ses caractéristiques.
@@ -39,14 +42,8 @@ Toutes les fonctions implémentées doivent inclure une en-tête de documentatio
 Exemple :
 
 ```c
-printf("Température : %.2f°C\n", temperature);
-
 /**
-
  * @brief Lit la température du capteur TMP36.
-   
  * @return La température en degrés Celsius.
-
  */
-
 float lire_temperature();
